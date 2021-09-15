@@ -1,7 +1,7 @@
 .showcase {
   height: 300px;
   width: 100%;
-  background: #000 url("/images/showcase.jpg") no-repeat center center;
+  background: #000 url('/images/showcase.jpg') no-repeat center center;
   color: #fff;
   position: relative;
   display: flex;
@@ -10,8 +10,9 @@
   justify-content: center;
   text-align: center;
 }
+
 .showcase::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -19,9 +20,11 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
 }
+
 .showcase * {
   z-index: 20;
 }
+
 .showcase h1 {
   font-size: 40px;
   margin-bottom: 0;
